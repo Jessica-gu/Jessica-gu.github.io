@@ -1,3 +1,4 @@
+#矩形脉冲信号
 import numpy as np
 import matplotlib.pyplot as plt
 def rect_wave(t,c0,c):
@@ -12,5 +13,5 @@ x=np.linspace(0,4,1000)#创建等差数列
 y=np.array([rect_wave(t,1.0,2.0)for t in x])
 plt.ylim(0,2)#设置纵轴的上下限
 plt.plot(x,y)
-plt.title("aaa")
+plt.title('aaa')
 plt.show()
